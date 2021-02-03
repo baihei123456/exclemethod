@@ -20,12 +20,12 @@ def get_excleDate(sheetName,startRow,endRow,body=4,repsData=5):
     return resList
 
 get_excleDate('登录测试用例',2,12)
-for t in get_excleDate('登录测试用例',2,12):
-    print(t)
+"""for t in get_excleDate('登录测试用例',2,12):
+    print(t)"""
 
-#写入excle
+"""#写入excle
 def write_excleDate():
     excleDir='../date_excle/1登录测试用例.xls'
     '''打开excle'''
     workBook=xlrd.open_workbook(excleDir,formatting_info=True)
-    newWorkBook=copy(workBook)
+    newWorkBook=copy(workBook)"""
